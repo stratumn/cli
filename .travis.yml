@@ -1,0 +1,10 @@
+sudo: required
+language: go
+go:
+  - "1.10"
+cache:
+  directories:
+  - $GOPATH/pkg/dep
+
+script:
+  - make deps build lint test_headers test
