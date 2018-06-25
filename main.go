@@ -21,3 +21,14 @@
 // Third party dependencies included in the vendor directory are distributed
 // under their respective licenses.
 package indigocli
+
+import "github.com/stratumn/indigo-cli/cmd"
+
+var (
+	version = "x.x.x"
+	commit  = "00000000000000000000000000000000"
+)
+
+func main() {
+	cmd.Execute(version, commit)
+}

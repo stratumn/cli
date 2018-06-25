@@ -25,6 +25,11 @@ import (
 )
 
 var (
+	version = "x.x.x"
+	commit  = "00000000000000000000000000000000"
+)
+
+var (
 	cfgPath                 string
 	ghToken                 string
 	generatorsPath          string
