@@ -1,10 +1,12 @@
 # Indigo CLI
 
+[![Build Status](https://semaphoreci.com/api/v1/stratumn/indigo-cli/branches/master/shields_badge.svg)](https://semaphoreci.com/stratumn/indigo-cli)
+
 Command-line interface for projects leveraging Stratumn's Indigo platform.
 
 ## Usage
 
-Run `indigo-cli generate` to start a new project.
+Run `indigo-cli generate <project name>` to start a new project.
 
 ## Advanced
 
