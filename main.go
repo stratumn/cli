@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package indigocli contains Stratumn's Indigo Command-line interface.
+// Package main contains Stratumn's Indigo Command-line interface.
 // The CLI helps create Indigo applications and networks.
 //
 // Unless otherwise noted, the source files are distributed under the Apache
@@ -20,11 +20,11 @@
 //
 // Third party dependencies included in the vendor directory are distributed
 // under their respective licenses.
-package indigocli
+package main
 
 import "github.com/stratumn/indigo-cli/cmd"
 
-var (
+const (
 	version = "x.x.x"
 	commit  = "00000000000000000000000000000000"
 )

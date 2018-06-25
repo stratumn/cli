@@ -65,10 +65,16 @@ It asks which generator to use, then uses that generator to generate a project i
 				Default: "agent-basic-js",
 				Options: generator.StringSelectOptions{},
 			}
+
 			for _, desc := range list {
 				in.Options[desc.Name] = desc.Description
 			}
+
 			ret, err := in.Run()
+			if err != nil {
+				return err
+			}
+
 			name = ret.(string)
 		}
 

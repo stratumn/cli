@@ -95,7 +95,7 @@ func New(path, owner, repo, ghToken string, isRemote bool) *Repo {
 		ts := oauth2.StaticTokenSource(
 			&oauth2.Token{AccessToken: ghToken},
 		)
-		tc = oauth2.NewClient(oauth2.NoContext, ts)
+		tc = oauth2.NewClient(context.TODO(), ts)
 	}
 	return &Repo{
 		path:     path,
