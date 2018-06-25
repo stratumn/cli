@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/stratumn/go-crypto/keys"
-	"github.com/stratumn/go-indigocore/generator"
+	"github.com/stratumn/indigo-cli/generator"
 )
 
 const (

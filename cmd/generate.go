@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 
 	"github.com/spf13/cobra"
-	"github.com/stratumn/go-indigocore/generator"
-	"github.com/stratumn/go-indigocore/generator/repo"
+	"github.com/stratumn/indigo-cli/generator"
+	"github.com/stratumn/indigo-cli/generator/repo"
 )
 
 var (

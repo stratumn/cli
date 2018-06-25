@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package cmd implements command line commands for strat.
+// Package cmd implements command line commands for indigo-cli.
 package cmd
 
 import (
@@ -34,20 +34,20 @@ const (
 	Owner = "stratumn"
 
 	// Repo is the name of the CLI's Github repository.
-	Repo = "go-indigocore"
+	Repo = "indigo-cli"
 
-	// AssetFormat is the format of the CLI GIthub asset.
-	AssetFormat = "strat-%s-%s.zip"
+	// AssetFormat is the format of the CLI Github asset.
+	AssetFormat = "indigo-cli-%s-%s.zip"
 
 	// AssetBinary is the file name of the binary within the CLI asset.
-	AssetBinary = "strat/strat"
+	AssetBinary = "indigo-cli/indigo-cli"
 
 	// AssetBinaryWin is the file name of the binary within the CLI asset
 	// on Windows.
-	AssetBinaryWin = "strat/strat.exe"
+	AssetBinaryWin = "indigo-cli/indigo-cli.exe"
 
 	// OldBinary is the name of the old binary after an update.
-	OldBinary = ".strat.old"
+	OldBinary = ".indigo-cli.old"
 
 	// SigExt the extension of the signature of the binary.
 	SigExt = ".sig"
@@ -124,7 +124,7 @@ const (
 var (
 	nixShell    = []string{"sh", "-i", "-c"}
 	winShell    = []string{"cmd", "/C"}
-	brewInfoCmd = []string{"brew", "info", "--json=v1", "stratumn/go-indigocore/strat"}
+	brewInfoCmd = []string{"brew", "info", "--json=v1", "stratumn/indigo-cli"}
 )
 
 // Project describes a project.
@@ -202,7 +202,7 @@ func runScript(name, wd string, args []string, ignoreNotExist bool) error {
 	}
 
 	cmd := strings.Split(script, " ")
-	if cmd[0] == "strat" {
+	if cmd[0] == "indigo-cli" {
 		if cmd[1] == "run" {
 			return runScript(cmd[2], "", cmd[3:], false)
 		}

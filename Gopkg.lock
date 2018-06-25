@@ -188,15 +188,6 @@
   revision = "e238d86e5d5a880603e2bfed02c0c9a90df12a6e"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/stratumn/go-indigocore"
-  packages = [
-    "generator",
-    "generator/repo"
-  ]
-  revision = "6f43ffbe24a1eb6a81b2f6d7390fdcf4aed84013"
-
-[[projects]]
   name = "github.com/stretchr/testify"
   packages = [
     "assert",
@@ -281,6 +272,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ad5e060b129e2f63bbc98073cc5ec70bcccdba3355e47539ceb205ddd4b561d7"
+  inputs-digest = "40cc547d3fe16a4fbf690aa6587c52503313c655f57f36814fd8fe66939d46ac"
   solver-name = "gps-cdcl"
   solver-version = 1

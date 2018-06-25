@@ -41,7 +41,7 @@ var (
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "strat",
+	Use:   "indigo-cli",
 	Short: "Stratumn Indigo CLI",
 	Long:  `The Stratumn Indigo CLI provides various commands to generate and work with Stratumn's technology.`,
 }
