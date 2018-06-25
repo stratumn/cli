@@ -25,11 +25,6 @@ import (
 )
 
 var (
-	version = "x.x.x"
-	commit  = "00000000000000000000000000000000"
-)
-
-var (
 	cfgPath                 string
 	ghToken                 string
 	generatorsPath          string
@@ -42,8 +37,8 @@ var (
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
 	Use:   "strat",
-	Short: "Stratumn CLI",
-	Long:  `The Stratumn CLI provides various commands to generate and work with Stratumn's technology.`,
+	Short: "Stratumn Indigo CLI",
+	Long:  `The Stratumn Indigo CLI provides various commands to generate and work with Stratumn's technology.`,
 }
 
 // Execute adds all child commands to the root command sets flags appropriately.

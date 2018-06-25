@@ -48,10 +48,10 @@ var (
 // updateCmd represents the update command
 var updateCmd = &cobra.Command{
 	Use:   "update",
-	Short: "Update Stratumn CLI and generators",
-	Long: `Update Stratumn CLI and update generators to latest version.
+	Short: "Update Stratumn Indigo CLI and generators",
+	Long: `Update Stratumn Indigo CLI and update generators to latest version.
 
-It downloads the latest version of the Stratumn CLI if available. It checks that the binary is cryptographically signed before installing.
+It downloads the latest version of the Stratumn Indigo CLI if available. It checks that the binary is cryptographically signed before installing.
 
 It will also update the generators if newer versions are available.	
 `,

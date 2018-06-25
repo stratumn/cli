@@ -25,14 +25,14 @@ import (
 var versionCmd = &cobra.Command{
 	Use:   "version",
 	Short: "Display version info",
-	Long: `Display the version info of Stratumn CLI.
+	Long: `Display the version info of Stratumn Indigo CLI.
 
 It outputs the semver string, and the first seven characters of the Git hash.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if len(args) > 0 {
 			return errors.New("unexpected arguments")
 		}
-		fmt.Printf("%s v%s@%s\n", "Stratumn CLI", version, commit[:7])
+		fmt.Printf("%s v%s@%s\n", "Stratumn Indigo CLI", version, commit[:7])
 		return nil
 	},
 }
