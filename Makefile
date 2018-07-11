@@ -45,6 +45,9 @@ TMP_DIR:=$(shell mktemp -d)
 # == .PHONY ===================================================================
 .PHONY: deps build clean lint test test_headers git_tag github_draft github_upload github_publish $(LICENSED_FILES) $(GITHUB_UPLOAD_FILES)
 
+# == all ======================================================================
+all: build
+
 # == release ==================================================================
 release: deps lint clean build git_tag github_draft github_upload github_publish
 
