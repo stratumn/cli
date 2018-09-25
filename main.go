@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package main contains Stratumn's Indigo Command-line interface.
-// The CLI helps create Indigo applications and networks.
+// Package main contains Stratumn's Command-line interface.
+// The CLI helps create decentralized applications and networks.
 //
 // Unless otherwise noted, the source files are distributed under the Apache
 // License 2.0 found in the LICENSE file.
@@ -22,7 +22,7 @@
 // under their respective licenses.
 package main
 
-import "github.com/stratumn/indigo-cli/cmd"
+import "github.com/stratumn/cli/cmd"
 
 const (
 	version = "x.x.x"

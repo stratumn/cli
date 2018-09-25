@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 
 	"github.com/spf13/cobra"
+	"github.com/stratumn/cli/generator"
 	"github.com/stratumn/go-crypto/keys"
-	"github.com/stratumn/indigo-cli/generator"
 )
 
 const (
