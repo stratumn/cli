@@ -63,8 +63,8 @@
       "prompt": "List of fossilizers",
       "isRequired": true,
       "options": {
-        "dummyfossilizer": "Indigo's Dummy Fossilizer",
-        "btcfossilizer": "Indigo's Bitcoin Fossilizer"
+        "dummyfossilizer": "Stratumn's Dummy Fossilizer",
+        "btcfossilizer": "Stratumn's Bitcoin Fossilizer"
       }
     }
   },

@@ -8,7 +8,7 @@ GOGET=$(GOCMD) get
 GOBUILD=$(GOCMD) build
 
 # Build parameters
-CMD_NAME=indigo-cli
+CMD_NAME=stratumn-cli
 NIX_OS_ARCHS?=darwin-amd64 linux-amd64
 WIN_OS_ARCHS?=windows-amd64
 DIST_DIR=dist

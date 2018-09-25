@@ -25,15 +25,15 @@ import (
 // infoCmd represents the info command
 var infoCmd = &cobra.Command{
 	Use:   "info",
-	Short: "Display Stratumn Indigo CLI info",
-	Long: `Display information about Stratumn Indigo CLI.
+	Short: "Display Stratumn CLI info",
+	Long: `Display information about Stratumn CLI.
 
 It outputs version, copyright, license, and runtime information.`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if len(args) > 0 {
 			return errors.New("unexpected arguments")
 		}
-		fmt.Printf("%s v%s@%s\n", "Stratumn Indigo CLI", version, commit[:7])
+		fmt.Printf("%s v%s@%s\n", "Stratumn CLI", version, commit[:7])
 		fmt.Println("Copyright (c) 2017-2018 Stratumn SAS")
 		fmt.Println("Apache License 2.0")
 		fmt.Printf("Runtime %s %s %s\n", runtime.Version(), runtime.GOOS, runtime.GOARCH)
