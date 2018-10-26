@@ -112,7 +112,7 @@
   version = "v1.8.0"
 
 [[projects]]
-  digest = "1:e3294b38b5590a93f57da4a340158802222f3bb41377ebc796dbc6e2e586ee3a"
+  digest = "1:2d2bc0f23cca6b59cec3fbece9abc102bdb19f548dd58d7667e57699074a2c76"
   name = "github.com/manifoldco/promptui"
   packages = [
     ".",
@@ -120,8 +120,8 @@
     "screenbuf",
   ]
   pruneopts = "UT"
-  revision = "3dd80c00b7cb0bc779d1c204da6f3ae0fa6a4eee"
-  version = "v0.3.0"
+  revision = "157c96fb638a14d268b305cf2012582431fcc410"
+  version = "v0.3.1"
 
 [[projects]]
   digest = "1:c658e84ad3916da105a761660dcaeb01e63416c8ec7bc62256a9b411a05fcd67"
