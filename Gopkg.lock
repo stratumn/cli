@@ -39,7 +39,7 @@
   name = "github.com/google/go-github"
   packages = ["github"]
   pruneopts = "UT"
-  revision = "68a79fc6a32bab9406083545e667a65ba67b0a3e"
+  revision = "60c18f2b2f5c1fa591b80d73f33234584a61ee8c"
 
 [[projects]]
   branch = "master"
