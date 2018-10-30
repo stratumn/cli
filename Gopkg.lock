@@ -254,7 +254,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:12243296c7ed847cf1b2c88161127f46f5a981a5c78c9da0b09b737531986830"
+  digest = "1:8ebab9705a310041e066f051b9ba82d9e84b8800c4972e7fc3844e9d08981489"
   name = "golang.org/x/crypto"
   packages = [
     "cast5",
@@ -268,7 +268,7 @@
     "openpgp/s2k",
   ]
   pruneopts = "UT"
-  revision = "e84da0312774c21d64ee2317962ef669b27ffb41"
+  revision = "bc7917b19d8f099105de72dc62898400be07c984"
 
 [[projects]]
   branch = "master"
